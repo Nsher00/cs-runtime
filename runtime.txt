@@ -1,0 +1,28 @@
+Timing results:
+
+Question 2:
+
+    extraLargeArray:
+    insert 639.5101 ms
+    append 2.5018 ms
+
+    Results for the largeArray
+    insert 6.7085 ms
+    append 424.8 μs
+
+    Results for the mediumArray
+    insert 152.4 μs
+    append 114 μs
+
+    Results for the smallArray
+    insert 54 μs
+    append 94.9 μs
+
+    Results for the tinyArray
+    insert 34.6 μs
+    append 86.4 μs
+
+Question 3:
+    as the size of the array shrinks it takes less time to edit it because it doesn't have to load as much data into it. The best ones for scale would be mediumArray and smallArray because
+    these allow you to put in more data without affecting the append speed that much compared to the tinyArray. On the other hand it is still way faster than the largeArray or extraLargeArray.
+    The way we can see this is by comparing all the append speeds of each array.
